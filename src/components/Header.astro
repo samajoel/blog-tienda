@@ -6,19 +6,14 @@ import MenuIcon from './icons/MenuIcon.astro'
 import Search from '@/components/Search'
 import TagIcon from './icons/TagIcon.astro'
 import ToggleTheme from './ToggleTheme.astro'
+import InstagramIcon from '@/components/icons/InstagramIcon'
 
 // ADD YOUR SOCIAL NETWORKS HERE
 const SOCIALNETWORKS = [
 	{
-		name: 'Github',
-		url: 'https://github.com/danielcgilibert/blog-template',
-		icon: GithubIcon
-	},
-
-	{
-		name: 'Twitter',
-		url: 'https://github.com/danielcgilibert/blog-template',
-		icon: TwitterIcon
+		name: 'Instagram',
+		url: 'https://www.instagram.com/looptechpy/',
+		icon: InstagramIcon
 	}
 ]
 ---
@@ -60,7 +55,7 @@ const SOCIALNETWORKS = [
 		<ToggleTheme />
 		<button id='astro-header-drawer-button' type='button' class='md:ml-6 md:hidden'>
 			<MenuIcon />
-			<span class='sr-only'>Show Menu</span>
+			<span class='sr-only'> Menu</span>
 		</button>
 	</div>
 </header>
